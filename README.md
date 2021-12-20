@@ -40,24 +40,18 @@
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools 
 	* The image above shows the 5 top performing schools based on the overall passing rate with the updated data and in the module. Thomas high school has “overall passing percentage” of `90.6` in the updated table and `90.9` in the module (second Table). It is in the 2nd place in both tables. So, its performance relative to other schools did not change even though the overall passing percentage is slightly lower in the updated table (where ninth graders' math and reading scores have been replaced). 
 
-* How does replacing the ninth-grade scores affect the following:
+* How does replacing the ninth-grade scores affect the following 
 
-![math_scores_by_grade after replacing Thomas 9th grade data](./Resources/math_scores_by_gradenew.png) 
- 
-![math_scores_by_grade in the module](./Resources/math_scores_by_gradmod.png) 
-
- 
 	* Math and reading scores by grade 
 		* The math and reading scores by grade for the ninth grade of Thomas high school show as Nans in the updated DataFrames and "83.6"(for math) and "83.7"(for reading) in original analysis of the module.  The 10th, 11 th and 12th grades of Thomas High School and all the grades of the other schools, their math and reading scores have not changed. 
 
 
 ![Scores by school spending after replacing Thomas 9th grade data](./Resources/spending_summary_dfnew.png) 
 
-![Scores by school spending_summary in the module](./Resources/spending_summary_dfmod.png) 
-
 	* Scores by school spending
 		* As you can see from the images above, all scores by school spending are same in the table with updated data and in the table of the module. So, replacing
 		Thomas high school ninth grade scores by Nans for math and reading does not affect the scores by school spending. 
+
 
 ![Scores by School size after replacing Thomas 9th grade data](./Resources/size_summary_dfnew.png)  
 
